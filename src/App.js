@@ -1,10 +1,12 @@
 import Item from './Item';
 import './index.css';
+import logo from './logo.png';
 
 function App() {
   return (
     <div className="App">
       <header>
+        <img src={logo} alt='basketball' />
         <h1 className='header'>Dunk Rank Support</h1>
       </header>
       <Item data={{
