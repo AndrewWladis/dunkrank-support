@@ -34,16 +34,16 @@ function App() {
         info: "To deny a request hit the x icon to the right of the score on an incoming request item. It will adjust your Rank Score accordingly."
       }}/>
       <Item data={{
-        title: "School/Team",
-        info: "To join a school or team select the school you are in. The cumulative team Rank Score is collected through average scores. Joining a team slightly increases the teams Rank Score."
+        title: "State",
+        info: "To join a state team select the state you live in. The cumulative team Rank Score is collected through average scores."
       }}/>
       <Item data={{
         title: "Profile Pictures",
         info: "To change your profile picture, select an icon on the profile page. Certain profile pictures can only be accessed if you have your Rank Score is above a certain number."
       }}/>
       <Item data={{
-        title: "Deleting an Account",
-        info: "To delete an account, hit the delete account button above the icons. It will then ask you to confirm your decision."
+        title: "Jordan AI",
+        info: "Enter a prompt in the Search Bar on the AI page to ask a question to Jordan AI. After a brief data call, it will respond with information."
       }}/>
       <h1 className='header-color'>Support Contact</h1>
       <Item data={{
