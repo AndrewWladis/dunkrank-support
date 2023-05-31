@@ -34,7 +34,7 @@ function App() {
         info: "To deny a request hit the x icon to the right of the score on an incoming request item. It will adjust your Rank Score accordingly."
       }}/>
       <Item data={{
-        title: "State",
+        title: "State Team",
         info: "To join a state team select the state you live in. The cumulative team Rank Score is collected through average scores."
       }}/>
       <Item data={{
