@@ -23,6 +23,10 @@ header {
   align-items: center;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 img {
   max-width: 50px;
   max-height: 50px;
@@ -39,8 +43,51 @@ img {
   justify-content: left;
 }
 
+.download {
+  width: 100%;
+  background-color: rgb(46, 47, 52);
+  display: flex;
+  flex-direction: row;
+}
+
+.download-button {
+  color: white;
+  font-size: 4vmin;
+  margin-bottom: 5%;
+  border: none;
+  border-radius: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: 800;
+  background-color: #3dafdb;
+}
+
+.download-header {
+  color: white;
+  font-size: 8vmin;
+}
+
+.download-info {
+  width: 50%;
+  margin-left: 4%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.download-subtitle {
+  color: white;
+  font-size: 4.5vmin;
+  width: 75%;
+  font-weight: 500;
+  margin-top: -5%;
+}
+
 .header {
   margin-left: 3%;
+  font-size: 5vmin;
 }
 
 .header-color {
@@ -58,4 +105,49 @@ img {
   margin-left: 3%;
   display: flex;
   flex-direction: column;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-items {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.pictures {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.screenshot {
+  min-height: 20em;
+  min-width: 8em;
+  object-fit: contain;
+  padding: 0;
+}
+
+.screenshot:nth-child(1) {
+  z-index: 1;
+}
+
+.screenshot:nth-child(2) {
+  min-height: 20em;
+  min-width: 8em;
+  margin-top: -10px;
+  margin-left: -50px;
+  z-index: 0;
+}
+
+#rules {
+  width: 100%;
+  height: auto;
 }
